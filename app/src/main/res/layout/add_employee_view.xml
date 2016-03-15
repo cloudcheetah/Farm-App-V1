@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/first_name"
+        android:textSize="20dp"
+        android:hint="First Name"
+        android:background="@drawable/rectangular_edittext"
+        android:drawableLeft="@mipmap/ic_business_center_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/middle_name"
+        android:textSize="20dp"
+        android:hint="Middle Name"
+        android:focusable="false"
+        android:clickable="true"
+        android:background="@drawable/rectangular_edittext"
+        android:drawableLeft="@mipmap/ic_date_range_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/last_name"
+        android:textSize="20dp"
+        android:hint="Last Name"
+        android:focusable="false"
+        android:clickable="true"
+        android:background="@drawable/rectangular_edittext"
+        android:drawableLeft="@mipmap/ic_date_range_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Spinner
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/gender"
+        android:textSize="20dp"
+        android:drawableLeft="@mipmap/ic_attach_money_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/date_of_birth"
+        android:textSize="20dp"
+        android:hint="Date of Birth"
+        android:focusable="false"
+        android:clickable="true"
+        android:background="@drawable/rectangular_edittext"
+        android:drawableLeft="@mipmap/ic_date_range_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/address"
+        android:textSize="20dp"
+        android:hint="Address"
+        android:focusable="false"
+        android:clickable="true"
+        android:background="@drawable/rectangular_edittext"
+        android:drawableLeft="@mipmap/ic_date_range_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/email"
+        android:textSize="20dp"
+        android:hint="Email"
+        android:focusable="false"
+        android:clickable="true"
+        android:background="@drawable/rectangular_edittext"
+        android:drawableLeft="@mipmap/ic_date_range_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/contact_number"
+        android:textSize="20dp"
+        android:hint="Contact Number"
+        android:focusable="false"
+        android:clickable="true"
+        android:background="@drawable/rectangular_edittext"
+        android:drawableLeft="@mipmap/ic_date_range_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
